@@ -7,8 +7,30 @@
     <title>Document</title>
 </head>
 <body>
+    <style> 
+        a:link, a:visited  {
+            background-color:  #0000FF;
+            border: 2px solid yellow;
+            color:#1B1811;
+            width: 350px;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color:magenta;
+            color:white;
+            border: 2px solid red;
+        }
+        a:active{
+            background-color: yellow;
+            color: #004242;
+            border: 2px solid #0000FF;
+        }
+        p{
+            background-color: #A2ADD0;
+        }
+    </style>
     <h1 id="auto_biogrphy">Автобіографія Паланія О.О.</h1>
-    <a href="index.html">Назад на головну</a>
+    <a href="index.html" class="back_to_index">Назад на головну</a>
     <h3 id="content">Зміст</h3>
     <a href="#basic_information">Базова інформація</a>
     <a href="#child_time">Дитинство</a>
@@ -70,7 +92,5 @@
         </p>
         <a href="#content">До змісту</a>
     </article>
-    <hr>
-    <a href="#auto_biogrphy"></a>
 </body>
 </html>
