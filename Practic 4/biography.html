@@ -12,8 +12,23 @@
             width: 350px;
             display: block;
         }
+        article{
+            font-size: 120%;
+        }
         h1, h2, h3{
             text-align: center;
+        }
+        h1{
+            font-size: 24px;
+        }
+        /*
+        текст заголовків збільшити на 20 % але воно зменшує
+        */
+        h2{
+            font-size: 120%;
+        }
+        .back_to_index{
+            font-style: italic;
         }
         a:link, a:visited  {
             background-color:  #0000FF;
@@ -34,6 +49,12 @@
         p{
             background-color: #A2ADD0;
         }
+        .to-content{
+            font-weight: bold;
+        }
+        .to-scroll-up{
+            text-transform: uppercase;
+        }
     </style>
     <h1 id="auto_biogrphy">Автобіографія Паланія О.О.</h1>
     <a href="index.html" class="back_to_index">Назад на головну</a>
@@ -52,7 +73,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit rem, ad exercitationem veritatis, ex tempore numquam velit modi soluta sunt laborum quas repellat! Adipisci dolorum esse neque sed, aperiam minima?
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium sequi omnis a, cumque ad, soluta molestiae iusto nisi non accusantium maiores velit, nobis praesentium est eligendi! Officia corrupti voluptas laborum.
         </p>
-        <a href="#content">До змісту</a>
+        <a  class="to-content" href="#content">До змісту</a>
     </article>
     <article id="child_time">
         <h2>Дитинство</h2>
@@ -98,5 +119,6 @@
         </p>
         <a href="#content">До змісту</a>
     </article>
+    <a class="to-scroll-up" href="#content">Уверх</a>
 </body>
 </html>
