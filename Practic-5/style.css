@@ -7,6 +7,10 @@ h1{
     font-style: italic;
 }
 
+article{
+    padding: 0 3%;
+}
+
 .caption{
     width: 28%; 
     height: 100%; 
