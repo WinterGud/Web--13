@@ -1,0 +1,25 @@
+h1{
+    font-size: 20px;
+}
+h1, h2, h3{
+    text-align: center;
+}
+h2{
+    font-size: 1.5em;
+}
+.img-in-this-folder{
+    font-size: 1.05em;
+}
+.img-in-folder{
+    font-size: 1.95em;
+}
+.online-img{
+    font-size: 2.535em;;
+}
+img{
+    display: block;
+    margin: 0px auto;
+}
+.back_to_index{
+    font-style: italic;
+}
