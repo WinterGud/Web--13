@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+.back_to_index{
+    font-style: italic;
+}
+h2{
+    text-align: center;
+}
+/*--------------------------*/
+ul li:nth-child(odd) {
+    background-color: gray;
+    color: yellowgreen;
+}
+ol li:nth-child(3){
+    cursor: pointer;
+}
+ol li:nth-child(5){
+    cursor: pointer;
+}
+ol li:nth-child(4){
+    background-color: brown;
+}
