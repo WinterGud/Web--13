@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+h3{
+    margin: 0%;
+    padding: 0%;
+    height: 50px;
+}
+
+.img-in-this-folder{
+    font-size: 1.05em;
+}
+
+.img-in-folder{
+    font-size: 1.95em;
+}
+
+.online-img{
+    font-size: 2.535em;;
+}
+
+img{
+    margin: 0px auto;
+    width: 100%;
+    height:90%;
+}
+
+.back_to_index{
+    font-style: italic;
+}

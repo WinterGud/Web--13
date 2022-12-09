@@ -1,0 +1,54 @@
+table{
+    width: 100%;
+}
+.last-element{
+    text-align: right;
+}
+.title-of-table{
+    text-align: center;
+    background-color: green;
+    color: #FFFF00;
+    font-style: bold;
+}
+.tr-1{
+    background-color: gray;
+}
+table, th, tr, td{
+    border: 1px solid;
+}
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+h2, caption{
+    text-align: center;
+}
+.back_to_index{
+    font-style: italic;
+}
+
+@media (min-width: 992px){
+    .title-of-table{
+        font-size: 130%;
+    }
+
+    .tr-1, .tr-2{
+        font-size: 120%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    .title-of-table{
+        font-size: 120%;
+    }
+
+    .tr-1, .tr-2{
+        font-size: 110%;
+    }
+}
+
+@media (max-width: 768px){
+    .title-of-table{
+        font-size: 110%;
+    }
+}
